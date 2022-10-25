@@ -1,0 +1,18 @@
+server:
+  port: 8130
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-oss
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+aliyun:
+  oss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    keyId: LTAI5tH3VU8nGcvRYteYw1yT
+    keySecret: SN9Jj8VVtmn2r8Kmwik3NTP4GhDeju
+    bucketName: srb-files-2022zc
